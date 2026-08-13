@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nandhana S | Frontend Developer</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="logo">
+        <img src="assets/logo.png" alt="Logo" class="logo-img">
+        <span>NANDHANA</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home" class="active">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button class="menu-toggle" aria-label="Menu"><span></span><span></span><span></span></button>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="container hero-inner">
+      <!-- <div class="hero-photo">-->
+      <!-- Replace "profile.jpg" below with your own image file (place it in the same folder) -->
+      <!-- <img src="assets/profile.png" alt="Nandhana S" class="placeholder" 
+          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">-->
+      <!-- <div class="placeholder placeholder-fallback"> -->
+      <!-- <svg viewBox="0 0 24 24"> -->
+      <!-- <path
+              d="M12 12c2.7 0 4.9-2.2 4.9-4.9S14.7 2.2 12 2.2 7.1 4.4 7.1 7.1 9.3 12 12 12zm0 2.5c-3.3 0-9.8 1.6-9.8 4.9V22h19.6v-2.6c0-3.3-6.5-4.9-9.8-4.9z" />
+          </svg> -->
+      <!-- </div> -->
+      <!--</div> -->
+      <div class="hero-text">
+        <span class="badge">Aspiring Web Developer</span>
+        <h2>Hi, I'm</h2>
+        <h1>NANDHANA</h1>
+        <p class="tagline">Frontend Developer with hands-on experience building responsive, user-friendly websites for
+          real-world client projects using HTML, CSS, JavaScript and WordPress.</p>
+        <div class="btn-row">
+          <a href="assets/Resume.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer">📄 View
+            Resume</a>
+          <a href="#projects" class="btn btn-solid">💻 View Projects</a>
+          <a href="#contact" class="btn btn-outline">✉️ Contact Me</a>
+        </div>
+        <div class="social-row">
+          <!-- <a class="social-icon" href="#" aria-label="GitHub"><svg viewBox="0 0 24 24">
+              <path
+                d="M12 2C6.5 2 2 6.5 2 12c0 4.4 2.9 8.2 6.8 9.5.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.5-1.1-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.5-1.3.1-2.7 0 0 .8-.3 2.7 1a9.4 9.4 0 015 0c1.9-1.3 2.7-1 2.7-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7 1 .7 2v2.9c0 .3.2.6.7.5A10 10 0 0022 12c0-5.5-4.5-10-10-10z" />
+            </svg></a> -->
+          <a class="social-icon" href="https://www.linkedin.com/in/nandhana-s-5aa31b309/" aria-label="LinkedIn"><svg
+              viewBox="0 0 24 24">
+              <path
+                d="M4.98 3.5C4.98 4.9 3.9 6 2.5 6S0 4.9 0 3.5 1.1 1 2.5 1s2.48 1.1 2.48 2.5zM.24 8.25H4.7V23H.24V8.25zM8.4 8.25h4.28v2.02h.06c.6-1.13 2.05-2.32 4.22-2.32 4.51 0 5.34 2.97 5.34 6.83V23h-4.46v-6.42c0-1.53-.03-3.5-2.13-3.5-2.13 0-2.46 1.66-2.46 3.39V23H8.4V8.25z" />
+            </svg></a>
+          <a class="social-icon" href="mailto:nandhanas789@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24">
+              <path d="M2 4h20v16H2V4zm2 2v.01L12 12l8-5.99V6H4zm16 2.24l-8 6-8-6V18h16V8.24z" />
+            </svg></a>
+          <a class="social-icon" href="https://wa.me/919496090166" aria-label="WhatsApp"><svg viewBox="0 0 24 24">
+              <path
+                d="M12 2a10 10 0 00-8.7 14.9L2 22l5.3-1.4A10 10 0 1012 2zm5.7 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.6-1.2-3.1s.8-2.2 1.1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .5 0 .7.6.3.7.9 2.2 1 2.4.1.2.2.4 0 .6-.1.2-.2.4-.4.6-.2.2-.4.5-.6.6-.2.2-.4.4-.2.8.2.4 1 1.6 2.1 2.6 1.4 1.3 2.6 1.7 3 1.9.4.2.6.1.8-.1.2-.2.9-1 1.1-1.4.2-.4.4-.3.7-.2.3.1 1.9.9 2.2 1.1.3.2.5.2.6.4.1.2.1.9-.1 1.6z" />
+            </svg></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-sub">B.Sc. Computer Science graduate passionate about creating responsive, user-friendly
+        websites with clean code and modern design.</p>
+
+      <div class="about-grid">
+        <div>
+          <div class="info-card" style="margin-bottom:20px;">
+            <h3><span class="icon">🎓</span> Education</h3>
+            <div class="timeline-item">
+              <h4>Bachelor of Science in Computer Science (2021–2024)</h4>
+              <p>VV College of Science and Technology, Palakkad</p>
+            </div>
+          </div>
+
+          <div class="info-card" style="margin-bottom:20px;">
+            <h3><span class="icon">💼</span> Experience</h3>
+            <div class="timeline-item">
+              <h4>Frontend Developer Trainee</h4>
+              <div class="org">Ekaksha Technologies</div>
+              <p>Jun 2024 – Jun 2025 · Built and maintained responsive website sections across 5+ live client sites
+                using HTML, CSS and JavaScript.</p>
+            </div>
+          </div>
+
+          <!-- <div class="info-card"> -->
+          <div class="info-card quick-facts" style="align-content:start;">
+            <div class="fact">
+              <div class="icon-box">📍</div>
+              <div>
+                <div class="label">Location</div>
+                <div class="value">Palakkad, Kerala</div>
+              </div>
+            </div>
+            <div class="fact">
+              <div class="icon-box">🎓</div>
+              <div>
+                <div class="label">Degree</div>
+                <div class="value">B.Sc. Computer Science</div>
+              </div>
+            </div>
+            <div class="fact">
+              <div class="icon-box">🗣️</div>
+              <div>
+                <div class="label">Languages</div>
+                <div class="value">English, Malayalam, Tamil</div>
+              </div>
+            </div>
+            <div class="fact">
+              <div class="icon-box">💼</div>
+              <div>
+                <div class="label">Status</div>
+                <div class="value">Open to Work</div>
+              </div>
+              <!-- </div> -->
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="info-card quick-facts" style="align-content:start;">
+        <div class="fact">
+          <div class="icon-box">📍</div>
+          <div><div class="label">Location</div><div class="value">Palakkad, Kerala</div></div>
+        </div>
+        <div class="fact">
+          <div class="icon-box">🎓</div>
+          <div><div class="label">Degree</div><div class="value">B.Sc. Computer Science</div></div>
+        </div>
+        <div class="fact">
+          <div class="icon-box">🗣️</div>
+          <div><div class="label">Languages</div><div class="value">English, Malayalam</div></div>
+        </div>
+        <div class="fact">
+          <div class="icon-box">💼</div>
+          <div><div class="label">Status</div><div class="value">Open to Work</div></div>
+        </div>
+      </div> -->
+      </div>
+    </div>
+  </section>
+
+  <section id="skills">
+    <div class="container">
+      <h2 class="section-title">My Skills</h2>
+      <p class="section-sub">Technologies and tools I use to build responsive, user-friendly websites.</p>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <div class="circle"><svg viewBox="0 0 24 24">
+              <path d="M8 3L2 12l6 9 1.5-1.2L4.9 12l4.6-7.8L8 3zm8 0l-1.5 1.2L19.1 12l-4.6 7.8L16 21l6-9-6-9z" />
+            </svg></div>
+          <h4>Languages</h4>
+          <div class="tag-row"><span class="tag">HTML5</span><span class="tag">CSS3</span><span
+              class="tag">JavaScript</span></div>
+        </div>
+        <div class="skill-card">
+          <div class="circle"><svg viewBox="0 0 24 24">
+              <path d="M4 4h16v12H4V4zm0 14h16v2H4v-2z" />
+            </svg></div>
+          <h4>CMS</h4>
+          <div class="tag-row"><span class="tag">WordPress</span><span class="tag">Gutenberg</span><span
+              class="tag">Site Editor</span></div>
+        </div>
+        <div class="skill-card">
+          <div class="circle"><svg viewBox="0 0 24 24">
+              <path d="M12 2l3 6 6 .9-4.5 4.4L17.5 20 12 17l-5.5 3 1-6.7L3 8.9 9 8z" />
+            </svg></div>
+          <h4>Design / Hosting</h4>
+          <div class="tag-row"><span class="tag">Canva</span><span class="tag">Hostinger</span></div>
+        </div>
+        <div class="skill-card">
+          <div class="circle"><svg viewBox="0 0 24 24">
+              <path
+                d="M22.7 19l-9.1-9.1c.9-2.3.4-5-1.5-6.9-2-2-5-2.4-7.4-1.3L9 6 6 9 1.6 4.7C.4 7.1.9 10.1 2.9 12.1c1.9 1.9 4.6 2.4 6.9 1.5l9.1 9.1c.4.4 1 .4 1.4 0l2.3-2.3c.5-.4.5-1.1.1-1.4z" />
+            </svg></div>
+          <h4>Tools</h4>
+          <div class="tag-row"><span class="tag">VS Code</span><span class="tag">GitHub</span><span
+              class="tag">Microsoft Word</span></div>
+        </div>
+        <div class="skill-card">
+          <div class="circle"><svg viewBox="0 0 24 24">
+              <path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z" />
+            </svg></div>
+          <h4>Others</h4>
+          <div class="tag-row"><span class="tag">Content Mgmt</span><span class="tag">Image Optimization</span><span
+              class="tag">Accessibility</span><span class="tag">Basic SEO</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <p class="section-sub">A selection of projects that demonstrate my skills in responsive web design and content
+        management.</p>
+
+      <div class="project-card">
+        <div class="circle"><svg viewBox="0 0 24 24">
+            <path
+              d="M12 3C7 3 2.7 6.6 1 12c1.7 5.4 6 9 11 9s9.3-3.6 11-9c-1.7-5.4-6-9-11-9zm0 15a6 6 0 110-12 6 6 0 010 12zm0-9.5A3.5 3.5 0 1012 15a3.5 3.5 0 000-7.5z" />
+          </svg></div>
+        <h4>Morning Reset — WordPress Blog</h4>
+        <p>A content-driven wellness blog built on WordPress.com, with a custom homepage layout, structured post
+          formats, and reusable content patterns for articles on routines, sleep and self-care.</p>
+        <div class="project-btns">
+          <a href="https://morningreset5.wordpress.com/" class="btn btn-solid" target="_blank"
+            rel="noopener noreferrer">🔗 Live Site</a>
+          <!-- <a href="#" class="btn btn-outline">ℹ️ More Details</a> -->
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="circle"><svg viewBox="0 0 24 24">
+            <path d="M3 3h18v4H3V3zm0 14h18v4H3v-4zm0-7h18v4H3v-4z" />
+          </svg></div>
+        <h4>Alrouh Trading</h4>
+        <span class="tag" style="margin-bottom:12px;display:inline-block;">Team Project · Trainee Contribution</span>
+        <p>Integrated and aligned images and content across the Products and About pages to improve overall user
+          experience.</p>
+        <div class="project-btns">
+          <a href="https://alrouhtrading.com/" class="btn btn-solid" target="_blank" rel="noopener noreferrer">🔗 Live
+            Site</a>
+          <!-- <a href="#" class="btn btn-outline">ℹ️ More Details</a> -->
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="circle"><svg viewBox="0 0 24 24">
+            <path d="M4 15h16v2H4v-2zm2-5l1-3h10l1 3H6zm-2 4v-2l2-4h12l2 4v2H4z" />
+          </svg></div>
+        <h4>Masters Uniforms</h4>
+        <span class="tag" style="margin-bottom:12px;display:inline-block;">Team Project · Trainee Contribution</span>
+        <p>Redesigned the homepage banner and customized the About Us page template with HTML and CSS for a responsive
+          layout.</p>
+        <div class="project-btns">
+          <a href="https://www.mastersuniforms.in/" class="btn btn-solid" target="_blank" rel="noopener noreferrer">🔗
+            Live Site</a>
+          <!-- <a href="#" class="btn btn-outline">ℹ️ More Details</a> -->
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div class="circle"><svg viewBox="0 0 24 24">
+            <path
+              d="M18.9 6.3H5.1L3 12v8h2v-2h14v2h2v-8l-2.1-5.7zM6.5 8h11l1.1 3H5.4l1.1-3zM6 17a1.5 1.5 0 110-3 1.5 1.5 0 010 3zm12 0a1.5 1.5 0 110-3 1.5 1.5 0 010 3z" />
+          </svg></div>
+        <h4>Express Car Care</h4>
+        <span class="tag" style="margin-bottom:12px;display:inline-block;">Team Project · Trainee Contribution</span>
+        <p>Edited the Services page template with structured content and images, and compressed site images to improve
+          load speed.</p>
+        <div class="project-btns">
+          <a href="https://express-carcare.com/" class="btn btn-solid" target="_blank" rel="noopener noreferrer">🔗 Live
+            Site</a>
+          <!-- <a href="#" class="btn btn-outline">ℹ️ More Details</a> -->
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <div class="container">
+      <h2 class="section-title">Let's Connect</h2>
+      <p class="section-sub">Feel free to reach out for opportunities or collaborations.</p>
+
+      <div class="contact-card">
+        <a class="contact-row" href="mailto:nandhanas789@gmail.com">
+          <div class="icon-circle"><svg viewBox="0 0 24 24">
+              <path d="M2 4h20v16H2V4zm2 2v.01L12 12l8-5.99V6H4zm16 2.24l-8 6-8-6V18h16V8.24z" />
+            </svg></div>
+          <div>
+            <div class="label">Email</div>
+            <div class="value">nandhanas789@gmail.com</div>
+          </div>
+        </a>
+        <a class="contact-row" href="tel:91+9496090166">
+          <div class="icon-circle"><svg viewBox="0 0 24 24">
+              <path
+                d="M6.6 10.8c1.4 2.8 3.7 5.1 6.5 6.5l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.5.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1-9.4 0-17-7.6-17-17 0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.5.1.4 0 .8-.2 1.1l-2.1 2.2z" />
+            </svg></div>
+          <div>
+            <div class="label">Phone</div>
+            <div class="value">91+9496090166</div>
+          </div>
+        </a>
+        <div class="contact-row">
+          <div class="icon-circle"><svg viewBox="0 0 24 24">
+              <path
+                d="M12 2C8.1 2 5 5.1 5 9c0 5.2 7 13 7 13s7-7.8 7-13c0-3.9-3.1-7-7-7zm0 9.5A2.5 2.5 0 1112 6a2.5 2.5 0 010 5.5z" />
+            </svg></div>
+          <div>
+            <div class="label">Location</div>
+            <div class="value">Palakkad, Kerala</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="contact-socials">
+        <!-- <a class="social-icon" href="#" aria-label="GitHub"><svg viewBox="0 0 24 24">
+            <path
+              d="M12 2C6.5 2 2 6.5 2 12c0 4.4 2.9 8.2 6.8 9.5.5.1.7-.2.7-.5v-1.7c-2.8.6-3.4-1.3-3.4-1.3-.5-1.1-1.1-1.5-1.1-1.5-.9-.6.1-.6.1-.6 1 .1 1.5 1 1.5 1 .9 1.5 2.3 1.1 2.9.8.1-.7.4-1.1.6-1.4-2.2-.3-4.6-1.1-4.6-5 0-1.1.4-2 1-2.7-.1-.3-.5-1.3.1-2.7 0 0 .8-.3 2.7 1a9.4 9.4 0 015 0c1.9-1.3 2.7-1 2.7-1 .5 1.4.2 2.4.1 2.7.6.7 1 1.6 1 2.7 0 3.9-2.4 4.7-4.6 5 .4.3.7 1 .7 2v2.9c0 .3.2.6.7.5A10 10 0 0022 12c0-5.5-4.5-10-10-10z" />
+          </svg></a> -->
+        <a class="social-icon" href="https://www.linkedin.com/in/nandhana-s-5aa31b309" aria-label="LinkedIn"><svg
+            viewBox="0 0 24 24">
+            <path
+              d="M4.98 3.5C4.98 4.9 3.9 6 2.5 6S0 4.9 0 3.5 1.1 1 2.5 1s2.48 1.1 2.48 2.5zM.24 8.25H4.7V23H.24V8.25zM8.4 8.25h4.28v2.02h.06c.6-1.13 2.05-2.32 4.22-2.32 4.51 0 5.34 2.97 5.34 6.83V23h-4.46v-6.42c0-1.53-.03-3.5-2.13-3.5-2.13 0-2.46 1.66-2.46 3.39V23H8.4V8.25z" />
+          </svg></a>
+        <a class="social-icon" href="https://wa.me/919496090166" aria-label="WhatsApp"><svg viewBox="0 0 24 24">
+            <path
+              d="M12 2a10 10 0 00-8.7 14.9L2 22l5.3-1.4A10 10 0 1012 2zm5.7 14.2c-.2.7-1.4 1.3-2 1.4-.5.1-1.1.1-1.8-.1-.4-.1-1-.3-1.7-.6-3-1.3-4.9-4.3-5.1-4.5-.1-.2-1.2-1.6-1.2-3.1s.8-2.2 1.1-2.5c.3-.3.6-.4.8-.4h.6c.2 0 .5 0 .7.6.3.7.9 2.2 1 2.4.1.2.2.4 0 .6-.1.2-.2.4-.4.6-.2.2-.4.5-.6.6-.2.2-.4.4-.2.8.2.4 1 1.6 2.1 2.6 1.4 1.3 2.6 1.7 3 1.9.4.2.6.1.8-.1.2-.2.9-1 1.1-1.4.2-.4.4-.3.7-.2.3.1 1.9.9 2.2 1.1.3.2.5.2.6.4.1.2.1.9-.1 1.6z" />
+          </svg></a>
+        <a class="social-icon" href="mailto:nandhanas789@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24">
+            <path d="M2 4h20v16H2V4zm2 2v.01L12 12l8-5.99V6H4zm16 2.24l-8 6-8-6V18h16V8.24z" />
+          </svg></a>
+      </div>
+
+      <div class="closing">
+        <div class="icon-box">
+          <img src="assets/icon.png" alt="Nandhana" class="footer-icon">
+        </div>
+        <p>I'm a frontend developer who enjoys building responsive, user-friendly websites with clean code and modern
+          design.</p>
+        <p>I'm currently <strong>open to new opportunities</strong> in Frontend Development, WordPress Development and
+          Web Design. I'm excited to contribute, learn, and build great experiences with passionate teams.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Nandhana S | Built with HTML, CSS &amp; JavaScript
+  </footer>
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
